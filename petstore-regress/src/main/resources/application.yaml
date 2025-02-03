@@ -1,0 +1,8 @@
+service:
+  url: http://localhost:8080
+
+datasource:
+  jdbc-url: jdbc:postgresql://localhost:5432/postgres
+  username: postgres
+  password: admin
+  driver-class-name: org.postgresql.Driver
