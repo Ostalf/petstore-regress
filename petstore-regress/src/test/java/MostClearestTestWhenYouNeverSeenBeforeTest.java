@@ -30,7 +30,6 @@ public class MostClearestTestWhenYouNeverSeenBeforeTest extends AbstractTestNGSp
             .id(111)
             .name("SHIIT");
 
-
     @SneakyThrows
     @Story("GET /pet")
     @Test(description = "Метод GET /pet должен вернуть модель Pet")

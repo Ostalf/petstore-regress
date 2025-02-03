@@ -39,7 +39,6 @@ public class PetstoreConfiguration {
                 .client(new OkHttpClient());
     }
 
-
     @Bean
     public DataSource petstoreDataSource(
             @Value("${datasource.jdbc-url}") String jdbcUrl,
